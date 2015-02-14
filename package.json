@@ -1,0 +1,34 @@
+{
+  "name": "q-series",
+  "version": "0.0.1",
+  "description": "execute tasks (that return q promises) in series",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvayngrib/q-series"
+  },
+  "keywords": [
+    "q",
+    "promises",
+    "series",
+    "helper"
+  ],
+  "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvayngrib/q-series/issues"
+  },
+  "homepage": "https://github.com/mvayngrib/q-series",
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "dependencies": {
+    "q": "^1.1.2"
+  }
+}
